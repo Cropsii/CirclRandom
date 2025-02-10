@@ -6,6 +6,7 @@ function setup() {
 }
 
 function draw() {
+  frameRate(30)
   if (count < 1){
     count++
   }
